@@ -4,13 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run generate-data && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "generate-data": "node scripts/generateData.cjs"
-  },
+     "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+  }
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
     "@types/leaflet": "^1.9.21",
